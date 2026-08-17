@@ -69,7 +69,7 @@ function createAlbumCard(album) {
         <img src="${album.cover}" class="card-img-top" alt="${album.title} cover">
         <div class="card-body">
           <h5 class="card-title text-success">${album.title}</h5>
-          <h6 class="card-subtitle mb-2 text-muted">${album.artist} (${album.year})</h6>
+          <h6 class="card-subtitle mb-2 text-light-50">${album.artist} (${album.year})</h6>
           <p class="card-text"><small class="text-secondary">Genre:</small> ${album.genre}</p>
         </div>
         <div class="card-footer border-secondary d-flex justify-content-between align-items-center">
